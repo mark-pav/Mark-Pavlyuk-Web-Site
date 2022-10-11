@@ -1,5 +1,33 @@
 body {}
 
+.section {
+  padding: 100px 0;
+}
+
+.col-with-padding {
+  padding: 5px 40px;
+}
+
 #profilePic {
   width: 100%;
+  border-radius: 50%;
+}
+
+.scrollToTop {
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  background: whiteSmoke;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+  background: no-repeat 0px 0px;
+}
+
+.scrollToTop:hover {
+  text-decoration: none;
 }

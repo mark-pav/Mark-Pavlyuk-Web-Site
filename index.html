@@ -13,6 +13,9 @@
   </head>
 
   <body>
+
+
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
@@ -28,20 +31,20 @@
             <li class="nav-item">
               <a class="nav-link" href="#expirience">Expirience</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item">
+              <a class="nav-link" href="#education">
                 Education
               </a>
-              <ul class="dropdown-menu">
+              <!-- <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Southeastern Louisiana University <i class="fa-regular fa-violin"></i></a></li>
                 <li><a class="dropdown-item" href="#">Renton Technical College</a></li>
-              </ul>
+              </ul> -->
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link d-flex justify-content-end"" href=" #">Contact me</a>
+              <a class="nav-link" href="#">Contact me</a>
             </li>
 
           </ul>
@@ -50,15 +53,16 @@
     </nav>
     <!-- end NavBar -->
 
+    <a href="#" class="scrollToTop">Scroll To Top</a>
 
     <!-- Welcome Section -->
-    <div id="welcomeSection">
-      <div class="container text-center">
+    <div id="welcomeSection" class="section">
+      <div class="container">
         <div class="row">
-          <div class="col">
-            <img id="profilePic" src="res/prfilePic.jpg" alt="">
+          <div class="col col-with-padding">
+            <img id="profilePic" src="res/prfilePic.jpg" alt="My profile picture supposed to be here...">
           </div>
-          <div class="col">
+          <div class="col align-self-center col-with-padding">
             <h5>Hello, I am</h5>
             <h1>Mark Pavlyuk</h1>
             <h4>Tech is my passion</h4>
@@ -70,24 +74,130 @@
 
     <hr>
 
-    <div id="expirience">
+    <!-- Experience Section Start -->
+    <div id="expirience" class="section">
       <h2>Experience:</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            01/05/2020 - present
+          </div>
+          <div class="col">
+            <h3>Company General Manager</h3>
+            <h5><a href="https://tfl-tires.com">Tires For Less LLC</a> - Sumner, WA</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
 
+          </div>
+          <div class="col">
+            <h6>Duties:</h6>
+            <ul>
+              <li>
+                <p>Inventory tracking, purchasing plans, quality & count control of arrived goods, developing new suppliers connections, industry research.</p>
+              </li>
+              <li>
+                <p>Time sheets, employees time schedule, customer service, sales, diagnostics, document maintenance.</p>
+              </li>
+              <li>
+                <p>Communication with customers through email, 24/7 phone, text, Google’s business profile etc.</p>
+              </li>
+              <li>
+                <p>Marketing through various platforms.</p>
+              </li>
+            </ul>
+
+            <h6>Proposed and implemented improvements:</h6>
+            <ul>
+              <li>
+                <p>Shift from paper to electronic clock-in/clock-out. *Currently working on developing a python project to automate time sheet forms handling.</p>
+              </li>
+              <li>
+                <p>Development and maintenance of company website using <a href="https://www.wix.com/">WIX</a> technologies. <a href="https://tfl-tires.com">www.TFL-Tires.com</a></p>
+              </li>
+              <li>
+                <p>Establishment of a clear inventory tracking system.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
     </div>
+    <!-- Experience Section END -->
+
 
     <hr>
 
-    <div id="expirience">
+    <!-- Education Section Start -->
+    <div id="education" class="section">
+      <h2>Academic Qualification:</h2>
+      <div class="container">
 
-    </div>
+        <div class="row">
+          <div class="col">
+            09/15/2021 - ongoing
+          </div>
+          <div class="col">
+            <h3><a href="https://rtc.edu">Renton Technical College</a></h3>
+            <h5>Bachelor of Applied Science in Application Development</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            01/01/2015 - 12/26/2019
+          </div>
+          <div class="col">
+            <h3><a href="https://selu.edu">Southeastern Louisiana University</a></h3>
+            <h5>Bachelor’s degree in music performance</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <!-- empty column -->
+          </div>
+          <div class="col">
+            <ul>
+              <li>
+                <p>GPA 3.72</p>
+              </li>
+              <li>
+                <h6>Additional classes I took in Computer Science:</h6>
+                <ul>
+                  <li>
+                    <p>CMPS161 - Algorithm Design and Implementation (Java)</p>
+                  </li>
+                  <li>
+                    <p>CMPS280 – Algorithm Design and Implementation (Java)</p>
+                  </li>
+                  <li>
+                    <p>CMPS315 – System Administration (Linux)</p>
+                  </li>
+                  <li>
+                    <p>CMPS339 – Database Administration (SQL)</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <!-- Education Section END -->
 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
+
+      <!-- Including jQuerry -->
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      <!-- Ref to the JS File -->
+      <script src="app.js" charset="utf-8"></script>
   </body>
 
 </html>
