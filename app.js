@@ -16,3 +16,11 @@ $(document).ready(function(){
     });
 
 });
+
+$("a:contains('About')").click(function(){
+  alert("About me section is coming up soon. Please, be patient!")
+});
+
+$("a:contains('Contact')").click(function(){
+  alert("Contact me section is coming up soon. Please, be patient!")
+});

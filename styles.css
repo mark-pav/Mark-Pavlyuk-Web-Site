@@ -36,6 +36,11 @@ h4 {
   font-weight: 100;
 }
 
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .section {
   padding: 100px 0;
 }
