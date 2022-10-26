@@ -1,4 +1,6 @@
 /* color pallete: https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9 */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
 body {
   color: #2C3639;
   background-color: #DCD7C9;
@@ -51,6 +53,16 @@ h4 {
 
 .col-with-padding {
   padding: 5px 40px;
+}
+
+.about-me-subsection {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.about-me-picture {
+  width: 90%;
+  border-radius: 7%;
 }
 
 #profilePic {

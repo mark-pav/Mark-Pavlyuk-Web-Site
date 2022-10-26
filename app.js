@@ -18,9 +18,9 @@ $(document).ready(function(){
 });
 
 $("a:contains('About')").click(function(){
-  alert("About me section is coming up soon. Please, be patient!")
+  // window.location.href= 'aboutMe.html';
 });
 
 $("a:contains('Contact')").click(function(){
-  alert("Contact me section is coming up soon. Please, be patient!")
+  alert("Contact me section is coming up soon. Please, be patient!");
 });
