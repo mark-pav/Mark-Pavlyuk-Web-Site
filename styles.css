@@ -70,6 +70,11 @@ h4 {
   border-radius: 50%;
 }
 
+.contact-form {
+  margin: 0 auto;
+  display: block;
+}
+
 .scrollToTop {
   width: 100px;
   padding: 10px;
