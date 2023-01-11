@@ -38,6 +38,11 @@ h4 {
   font-weight: 100;
 }
 
+.codingIsFunHL{
+  font-size: 1.5rem;
+  display: block;
+}
+
 .nav-link {
   margin-left: 10px;
   margin-right: 10px;
